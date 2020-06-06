@@ -1,5 +1,11 @@
 **Status:** Archive (code is provided as-is, no updates expected)
 
+Installed on ec2 ubuntu 18 deep learning AMI in May 2020.  Needed
+
+pip install tensorflow==1.14.0
+
+to work
+
 # gpt-2
 
 Code and models from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
