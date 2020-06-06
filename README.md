@@ -1,15 +1,15 @@
-git clone https://github.com/openai/gpt-2.git && cd gpt-2
-pip3 install tensorflow-gpu==1.14.0
-pip3 install -r requirements.txt
+    git clone https://github.com/openai/gpt-2.git && cd gpt-2
+    pip3 install tensorflow-gpu==1.14.0
+    pip3 install -r requirements.txt
 
-python3 download_model.py 124M
-python3 download_model.py 355M
-python3 download_model.py 774M
-python3 download_model.py 1558M
+    python3 download_model.py 124M
+    python3 download_model.py 355M
+    python3 download_model.py 774M
+    python3 download_model.py 1558M
 
-export PYTHONIOENCODING=UTF-8
+    export PYTHONIOENCODING=UTF-8
 
-python3 src/generate_unconditional_samples.py | tee /tmp/samples
+    python3 src/generate_unconditional_samples.py | tee /tmp/samples
 
 
 Installed on ec2 ubuntu 18 deep learning AMI in May 2020 using pip.  There was a problem using docker.
