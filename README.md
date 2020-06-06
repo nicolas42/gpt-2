@@ -1,10 +1,10 @@
-**Status:** Archive (code is provided as-is, no updates expected)
-
 Installed on ec2 ubuntu 18 deep learning AMI in May 2020.  Needed
 
 pip install tensorflow==1.14.0
 
 to work
+
+**Status:** Archive (code is provided as-is, no updates expected)
 
 # gpt-2
 
